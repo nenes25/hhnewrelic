@@ -1,0 +1,33 @@
+{
+  "name": "nenes/prestashop-hhnewrelic",
+  "description": "New Relic optimization module for PrestaShop",
+  "type": "prestashop-module",
+  "license": "AFL-3.0",
+  "authors": [
+    {
+      "name": "Hennes Hervé",
+      "email": "contact@h-hennes.fr"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+
+  "require-dev": {
+    "prestashop/php-dev-tools": "^4.0",
+    "phpstan/phpstan": "^1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "hhnewrelic.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "prepend-autoloader": false
+  }
+}

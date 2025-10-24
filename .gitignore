@@ -1,0 +1,21 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+
+# Tests
+/tests/coverage/
+/.phpunit.result.cache
+
+# Build
+.github/build.sh
+*.zip
